@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juegoSerpiente BETA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="formJuego">
+        <h3>Puntaje Actual: <p id="puntajeActual"></p></h3>
+        <h3>Mejor Puntaje: <p id="mejorPuntaje"></p></h3>
+        <h3>"Enter" para iniciar <p id="mejorPuntaje"></p></h3>
+        <h3 id="saltoActivo">Salto: Desactivado</h3>
+
+        <div id="seleccionPersonaje">
+            <div class="personaje azul" name="color"></div>
+            <div class="personaje amarillo" name="color"></div>
+            <div class="personaje rojo" name="color">nop</div>
+            <div class="personaje negro" name="color">nop</div>
+        </div>
+        <br>
+        <p class="titulo"><a href="ayuda.html">ayuda</a></p>
+
+    </div>
+        <div class="contenedorJuego"></div>
+
+
+
+
+</body>
+<script src="js/agregaCasillas.js"></script>
+<script src="js/agregaManzana.js"></script>
+<script src="js/mecanicaPersonaje.js"></script>
+<script src="js/personaje.js"></script>
+</html>

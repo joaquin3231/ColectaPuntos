@@ -1,0 +1,92 @@
+body {
+    background-color: #bebebe;
+    font-family: sans-serif;
+    color: #000033;
+}
+
+
+#seleccionPersonaje{
+    display: inline-flex
+}
+
+.personaje{
+    height: 50px;
+    width: 50px;
+}
+
+.azul{
+    background-color: #2600ff;
+}
+
+.amarillo{
+    background-color: #e5ff00;
+}
+
+.rojo{
+    background-color: #ff00008f;
+}
+
+.negro{
+    background-color: #0000008a;
+}
+
+.contenedorJuego {
+    margin: auto;
+
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.formJuego{
+    margin: auto;
+
+    float: inline-start;
+
+}
+
+.paredes {
+    height: 50px;
+    width: 50px;
+    background-image: url(/imagenes/muros.png);
+}
+
+.vacio {
+    height: 50px;
+    width: 50px;
+    background-image: url(/imagenes/piso.png);
+}
+.manzana {
+    font-size: 0px;
+    height: 50px;
+    width: 50px;
+    background-image: url(/imagenes/punto.png);
+
+}
+
+
+
+.ayuda{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.titulo{
+    font-weight: 550;
+    font-size: 30px;
+
+}
+
+.muestra{
+float: left;
+margin-right: 20px;
+}
+
+.ejemplo {
+
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
