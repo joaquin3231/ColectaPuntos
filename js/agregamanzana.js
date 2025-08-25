@@ -72,12 +72,8 @@ function quitarManzana(casilla){
         arrayCasillas[id].textContent = "";
 
         puntos++;
-        
-
 
         puntosActuales.textContent = puntos;
-
-
         cargarManzana()
 
         for (let i = 0; i < 3; i++) {

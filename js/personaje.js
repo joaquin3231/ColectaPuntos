@@ -27,7 +27,7 @@ mejorPuntaje.textContent = JSON.parse(localStorage.getItem("mejorPunto"));
 
 //Funcion para iniciar el juego
 function cargarJuego() {
-    console.log(localStorage.getItem("mejorPuntos"))
+    console.log(JSON.parse(localStorage.getItem("mejorPunto")))
 
     mejorPuntaje.textContent = JSON.parse(localStorage.getItem("mejorPunto"));
 

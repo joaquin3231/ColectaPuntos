@@ -72,6 +72,9 @@ function movimientoPersonaje(numero){
 
             } else {
                 alert(`Perdiste. Puntaje Actual: ${puntos}`)
+                if(JSON.parse(localStorage.getItem("mejorPunto")) < puntos){
+                    localStorage.setItem("mejorPunto", puntos);
+                }
             }
         }
     }
